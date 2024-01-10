@@ -1,0 +1,21 @@
+// Insert in theme.liquid before the loading of custom.css:
+
+{% if settings.body_font_selector != 'None' %}
+    <style>
+      body, li, label, p, button, a, input, div {
+        font-family: '{{ settings.body_font_selector }}', {{ settings.type_base_font.family }}, sans-serif !important;
+      }
+    </style>
+  {% endif %}
+
+  
+  {% if settings.heading_font_selector != 'None' %}
+    <style>
+      h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: '{{ settings.heading_font_selector }}', {{ settings.type_header_font.family }}, sans-serif !important;
+      }
+    </style>
+  {% endif %}
+
+
+

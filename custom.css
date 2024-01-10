@@ -1,0 +1,60 @@
+/* Place any CSS overrides in this file. */
+
+/** Gilroy Fonts **/
+
+@font-face {
+  font-family: 'GilroyMedium';
+  src: url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/GilroyMedium.woff2?v=1663597240') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/GilroyMedium.woff?v=1663597240') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GilroyRegular';
+  src: url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/GilroyRegular.woff2?v=1663597241') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/GilroyRegular.woff?v=1663597241') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/** Acumin Fonts **/
+
+@font-face {
+  font-family: 'AcuminRegular';
+  src: url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-Regular.woff2?v=1704904215') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-Regular.woff?v=1704904215') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcuminMedium';
+  src: url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-Medium.woff2?v=1704904215') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-Medium.woff?v=1704904215') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcuminItalic';
+  src: url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-Italic.woff2?v=1704904215') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-Italic.woff?v=1704904215') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcuminMediumItalic';
+  src: url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-MediumItalic.woff2?v=1704904215') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0503/6841/3848/files/AcuminProWide-MediumItalic.woff?v=1704904215') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* .site-nav--link-text {
+  font-family: 'AcuminRegular', sans-serif;
+} */
+
+

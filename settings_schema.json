@@ -1,0 +1,72 @@
+// Insert in settings_schema.json, preferably under where typography loads:
+
+
+{
+    "name": "Custom Fonts",
+    "settings": [
+      {
+        "type": "select",
+        "id": "heading_font_selector",
+        "label": "Choose Your Heading Font",
+        "options": [
+          {
+            "value": "None",
+            "label": "None"
+          },
+          {
+            "value": "AcuminMediumItalic",
+            "label": "Acumin Medium Italic"
+          },
+          {
+            "value": "AcuminRegular",
+            "label": "Acumin Regular"
+          },
+          {
+            "value": "AcuminMedium",
+            "label": "Acumin Medium"
+          },
+          {
+            "value": "GilroyRegular",
+            "label": "Gilroy Regular"
+          },
+          {
+            "value": "GilroyMedium",
+            "label": "Gilroy Medium"
+          }
+        ],
+        "default": "None"
+      },
+      {
+        "type": "select",
+        "id": "body_font_selector",
+        "label": "Choose Your Body Font",
+        "options": [
+          {
+            "value": "None",
+            "label": "None"
+          },
+          {
+            "value": "AcuminMediumItalic",
+            "label": "Acumin Medium Italic"
+          },
+          {
+            "value": "AcuminRegular",
+            "label": "Acumin Regular"
+          },
+          {
+            "value": "AcuminMedium",
+            "label": "Acumin Medium"
+          },
+          {
+            "value": "GilroyRegular",
+            "label": "Gilroy Regular"
+          },
+          {
+            "value": "GilroyMedium",
+            "label": "Gilroy Medium"
+          }
+        ],
+        "default": "None"
+      }
+    ]
+  }
